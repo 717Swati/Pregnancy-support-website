@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Stream</title>
+
+    <style>
+        body {
+            background: linear-gradient(45deg, rgb(234, 34, 67), rgb(93, 93, 255));
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            font-size: 40px;
+        }
+
+        pre {
+            position: relative;
+            top: -70px;
+
+        }
+
+        a {
+            text-decoration: none;
+            position: relative;
+            top: -60px;
+            background: linear-gradient(90deg, rgb(66, 247, 66), rgb(235, 235, 7));
+            border: 3px solid black;
+            border-radius: 20px;
+            left: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Record Video</h1>
+    <center> <img src="{{ url_for('video_feed') }}" alt="Video Stream"></center>
+
+    <pre>   "While your video has been Stuck click
+    the below BUTTON to go to back page" </pre>
+    <a href="http://localhost:3000/items">Go back to Items Page</a>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Registration and Login</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style>
+        body {
+            background: linear-gradient(45deg, rgb(236, 236, 101), rgb(133, 224, 90))
+        }
+
+        #register-btn {
+            border: 4px solid rgb(247, 170, 70);
+            border-radius: 10px;
+            color: blue;
+            position: relative;
+            left: 50px;
+            bottom: 100px;
+        }
+
+        #login-btn {
+            border: 4px solid rgb(247, 170, 70);
+            border-radius: 10px;
+            color: blue;
+            position: relative;
+            right: 30px;
+            bottom: 60px;
+        }
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div id="video-container">
+        <video id="video" width="640" height="480" autoplay></video>
+        <button id="register-btn">Register User</button>
+        <button id="login-btn">Login</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+/* Reset some default styles */
+/* body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    flex: 1;
+    
+    max-width: 655px;
+    margin: 104px auto;
+    padding: 174px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#cta a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#cta a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: skyblue;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* Add more styles as needed */
